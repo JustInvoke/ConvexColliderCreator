@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1420890052864684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4891325152436508}
+  - component: {fileID: 33160565856018126}
+  - component: {fileID: 23167929193335452}
+  - component: {fileID: 114530006807624978}
+  - component: {fileID: 64506870332616232}
+  - component: {fileID: 64404578247237076}
+  - component: {fileID: 54297851305134796}
+  m_Layer: 0
+  m_Name: Boat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4891325152436508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420890052864684}
+  m_LocalRotation: {x: 0.000000021855694, y: -0.00000016292068, z: 3.560745e-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33160565856018126
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420890052864684}
+  m_Mesh: {fileID: 4300016, guid: ef5f4a6a86b41ba40876489a6d754d0b, type: 3}
+--- !u!23 &23167929193335452
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420890052864684}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e8f08ba57499b954db114fe83565e68f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114530006807624978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420890052864684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e53546a88b62f4da4f76e38830ae80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generateOnStart: 1
+  linkedPreset: {fileID: 11400000, guid: 81fdda1e55741e441b529226d02b1b78, type: 2}
+  showPresetOptions: 1
+  showColliderList: 1
+  meshColComponents:
+  - {fileID: 64506870332616232}
+  - {fileID: 64404578247237076}
+  colliders:
+  - name: Hull
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 1
+      cornerDetailMode: 1
+      boxSize: {x: 3.531103, y: 1, z: 9.167942}
+      boxOffset: {x: 0, y: 0, z: -0.19422603}
+      boxSidesPos: {x: 0.5, y: 0.5, z: 0.5}
+      boxSidesNeg: {x: -0.5, y: -0.5, z: -0.5}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 0.10996636, y: 0.25742817, z: 0.69860286}
+        axleRadii: {x: 1.4967794, y: 0.97627544, z: 3.135398}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -0.10996636, y: 0.25742817, z: 0.69860286}
+        axleRadii: {x: 1.4967794, y: 0.97627544, z: 3.135398}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -0.37058976, y: 0.14239196, z: -3.8964658}
+        axleRadii: {x: 1.0850315, y: 0.7846894, z: 0.12056446}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 0.37058976, y: 0.14239196, z: -3.8964658}
+        axleRadii: {x: 1.0850315, y: 0.7846894, z: 0.12056446}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 0.2090169, y: 0.605113, z: 0.73998183}
+        axleRadii: {x: 1.6639214, y: 0.14180475, z: 3.771845}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -0.2090169, y: 0.605113, z: 0.73998183}
+        axleRadii: {x: 1.6639214, y: 0.14180475, z: 3.771845}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -1.7149234, y: 0.73980457, z: -3.811537}
+        axleRadii: {x: 0.10421562, y: 0.27909034, z: 1.228368}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 1.7149234, y: 0.73980457, z: -3.811537}
+        axleRadii: {x: 0.10421562, y: 0.27909034, z: 1.228368}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      cornerDetails: 05000000050000000500000005000000
+      topSegments: 3
+      bottomSegments: 4
+      XYDetail: 5
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 1
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks:
+      - name: Back
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 0.00000015380152, y: -4.266377, z: -4.9426126}
+        localRot: {x: 0.0000000034673922, y: 0.9968484, z: 0.079330124, w: -0.00000004357362}
+        localEulerRot: {x: 350.89987, y: 180, z: -2.7443749e-11}
+        radius: 4.705122
+        strength: 1.2098584
+        falloff: 0.68956345
+        set: 1
+      - name: Front
+        enabled: 1
+        showHandles: 1
+        hookType: 2
+        localPos: {x: 0.00000015380152, y: 0.82229185, z: 4.564619}
+        localRot: {x: 0, y: 0, z: 0, w: 1}
+        localEulerRot: {x: -0, y: 0, z: 0}
+        radius: 4.540235
+        strength: 0.7255328
+        falloff: 0.8204067
+        set: 1
+      - name: Front Under
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -0.00000032868215, y: -2.7255769, z: 2.357072}
+        localRot: {x: 0.15265048, y: 3.9047286e-13, z: 1.7175291e-13, w: 0.9882803}
+        localEulerRot: {x: 17.561115, y: 4.9533346e-11, z: 2.7565786e-11}
+        radius: 3.4551098
+        strength: 0.38325125
+        falloff: 0.5000405
+        set: 1
+      - name: Top Front
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -0.0000007931042, y: 1.7961602, z: 1.0855198}
+        localRot: {x: -0.41755667, y: 5.254567e-14, z: 3.3556212e-13, w: 0.9086509}
+        localEulerRot: {x: 310.63916, y: -1.6252113e-11, z: 4.9786748e-11}
+        radius: 2.3113291
+        strength: 0.25247154
+        falloff: 0.1667333
+        set: 1
+      - name: Top Right
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 2.3024144, y: 2.0806437, z: -1.3319079}
+        localRot: {x: -0.23116328, y: 0.6772177, z: 0.28110752, w: 0.6394671}
+        localEulerRot: {x: 317.43823, y: 91.87667, z: 3.6135628}
+        radius: 2.0558782
+        strength: 0.25247154
+        falloff: 0.271415
+        set: 1
+      - name: Top Left
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -2.3024144, y: 2.0806437, z: -1.3319079}
+        localRot: {x: -0.23116279, y: -0.6772184, z: -0.28110853, w: 0.6394663}
+        localEulerRot: {x: 317.43817, y: 268.12323, z: 356.38635}
+        radius: 2.0558782
+        strength: 0.25247154
+        falloff: 0.271415
+        set: 1
+      - name: Under
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 5.322774e-14, y: -2.8004432, z: -3.2300508}
+        localRot: {x: 0.74827844, y: -0.0000000037108228, z: -0.0000000037106924,
+          w: 0.6633848}
+        localEulerRot: {x: 83.117065, y: 180, z: 180}
+        radius: 3.460347
+        strength: 0.11659269
+        falloff: 0.5182146
+        set: 1
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+  - name: Cabin
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 1
+      cornerDetailMode: 0
+      boxSize: {x: 3.2219222, y: 1.0479198, z: 2.4745345}
+      boxOffset: {x: 0, y: 1.1311827, z: -1.0912623}
+      boxSidesPos: {x: 0.5, y: 0.5, z: 0.5}
+      boxSidesNeg: {x: -0.5, y: -0.5, z: -0.5}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 1.5886173, y: 0.8254237, z: 0.5744417}
+        axleRadii: {x: 0.20925713, y: 0.20925719, z: 0.20925719}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -1.5886173, y: 0.8254237, z: 0.5744417}
+        axleRadii: {x: 0.20925713, y: 0.20925719, z: 0.20925719}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -1.6077529, y: 0.6072229, z: -2.0219338}
+        axleRadii: {x: 0.20935893, y: 0.20935893, z: 0.20935893}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 1.6077529, y: 0.6072229, z: -2.0219338}
+        axleRadii: {x: 0.20935893, y: 0.20935893, z: 0.20935893}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 1.3332975, y: 1.5172987, z: -0.23306407}
+        axleRadii: {x: 0.4130268, y: 0.059116364, z: 0.4464532}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -1.3332975, y: 1.5172987, z: -0.23306407}
+        axleRadii: {x: 0.4130268, y: 0.059116364, z: 0.4464532}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -1.289549, y: 1.532041, z: -2.0134516}
+        axleRadii: {x: 0.46341228, y: 0.13615179, z: 0.33723903}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 1.289549, y: 1.532041, z: -2.0134516}
+        axleRadii: {x: 0.46341228, y: 0.13615179, z: 0.33723903}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      cornerDetails: 02000000020000000200000002000000
+      topSegments: 3
+      bottomSegments: 0
+      XYDetail: 2
+      YZDetail: 3
+      XZDetail: 2
+      detailSmoothness: 0
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks:
+      - name: Top
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 0.00000052975133, y: 1.5213346, z: -0.8620258}
+        localRot: {x: -0.72509414, y: 0.0000000617967, z: 0.00000006179672, w: 0.6886498}
+        localEulerRot: {x: 272.95334, y: 180, z: 180}
+        radius: 1.2084837
+        strength: 0.13261512
+        falloff: 0.4775728
+        set: 1
+      - name: Front
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -0.00000008624606, y: 0.80287695, z: 0.17429733}
+        localRot: {x: -0.17100228, y: 0.000000086462414, z: 0.0000000127209185, w: 0.9852706}
+        localEulerRot: {x: 340.3078, y: 0.000010103548, z: -0.00000027405724}
+        radius: 1.2084837
+        strength: 0.1852374
+        falloff: 0.4775728
+        set: 1
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+--- !u!64 &64506870332616232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420890052864684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!64 &64404578247237076
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420890052864684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!54 &54297851305134796
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420890052864684}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: ef5f4a6a86b41ba40876489a6d754d0b
+timeCreated: 1538770667
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube_001
+    100004: Cylinder
+    100006: Cylinder_001
+    100008: //RootNode
+    100010: Cylinder_002
+    100012: CarWheel
+    100014: WheelHolder
+    100016: WheelHolder_001
+    100018: WheelHolder_002
+    100020: WheelHolder_003
+    100022: Car
+    100024: Plane
+    100026: Boat
+    100028: Rocket
+    100030: Trophy
+    100032: Sword
+    100034: Barrel
+    100036: Gem
+    100038: AK-47
+    100040: TV
+    100042: Egg
+    100044: Chest
+    400000: Cube
+    400002: Cube_001
+    400004: Cylinder
+    400006: Cylinder_001
+    400008: //RootNode
+    400010: Cylinder_002
+    400012: CarWheel
+    400014: WheelHolder
+    400016: WheelHolder_001
+    400018: WheelHolder_002
+    400020: WheelHolder_003
+    400022: Car
+    400024: Plane
+    400026: Boat
+    400028: Rocket
+    400030: Trophy
+    400032: Sword
+    400034: Barrel
+    400036: Gem
+    400038: AK-47
+    400040: TV
+    400042: Egg
+    400044: Chest
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cylinder
+    2300006: Cylinder_001
+    2300008: Cylinder_002
+    2300010: CarWheel
+    2300012: //RootNode
+    2300014: Car
+    2300016: Plane
+    2300018: Boat
+    2300020: Rocket
+    2300022: Trophy
+    2300024: Sword
+    2300026: Barrel
+    2300028: Gem
+    2300030: AK-47
+    2300032: TV
+    2300034: Egg
+    2300036: Chest
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cylinder
+    3300006: Cylinder_001
+    3300008: Cylinder_002
+    3300010: CarWheel
+    3300012: //RootNode
+    3300014: Car
+    3300016: Plane
+    3300018: Boat
+    3300020: Rocket
+    3300022: Trophy
+    3300024: Sword
+    3300026: Barrel
+    3300028: Gem
+    3300030: AK-47
+    3300032: TV
+    3300034: Egg
+    3300036: Chest
+    4300000: Cube_001
+    4300002: Cylinder_001
+    4300004: Cylinder
+    4300006: Cube
+    4300008: Cylinder_002
+    4300010: Car
+    4300012: CarWheel
+    4300014: Plane
+    4300016: Boat
+    4300018: Rocket
+    4300020: Trophy
+    4300022: Sword
+    4300024: Barrel
+    4300026: Gem
+    4300028: AK-47
+    4300030: TV
+    4300032: Egg
+    4300034: Chest
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

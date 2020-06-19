@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9092efbd977154da1f5519958fddb8, type: 3}
+  m_Name: Boat
+  m_EditorClassIdentifier: 
+  colliders:
+  - name: Hull
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 1
+      cornerDetailMode: 1
+      boxSize: {x: 3.531103, y: 1, z: 9.167942}
+      boxOffset: {x: 0, y: 0, z: -0.19422603}
+      boxSidesPos: {x: 0.5, y: 0.5, z: 0.5}
+      boxSidesNeg: {x: -0.5, y: -0.5, z: -0.5}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 0.10996636, y: 0.25742817, z: 0.69860286}
+        axleRadii: {x: 1.4967794, y: 0.97627544, z: 3.135398}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -0.10996636, y: 0.25742817, z: 0.69860286}
+        axleRadii: {x: 1.4967794, y: 0.97627544, z: 3.135398}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -0.37058976, y: 0.14239196, z: -3.8964658}
+        axleRadii: {x: 1.0850315, y: 0.7846894, z: 0.12056446}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 0.37058976, y: 0.14239196, z: -3.8964658}
+        axleRadii: {x: 1.0850315, y: 0.7846894, z: 0.12056446}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 0.2090169, y: 0.605113, z: 0.73998183}
+        axleRadii: {x: 1.6639214, y: 0.14180475, z: 3.771845}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -0.2090169, y: 0.605113, z: 0.73998183}
+        axleRadii: {x: 1.6639214, y: 0.14180475, z: 3.771845}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -1.7149234, y: 0.73980457, z: -3.811537}
+        axleRadii: {x: 0.10421562, y: 0.27909034, z: 1.228368}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 1.7149234, y: 0.73980457, z: -3.811537}
+        axleRadii: {x: 0.10421562, y: 0.27909034, z: 1.228368}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      cornerDetails: 05000000050000000500000005000000
+      topSegments: 3
+      bottomSegments: 4
+      XYDetail: 5
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 1
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks:
+      - name: Back
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 0.00000015380152, y: -4.266377, z: -4.9426126}
+        localRot: {x: 0.0000000034673922, y: 0.9968484, z: 0.079330124, w: -0.00000004357362}
+        localEulerRot: {x: 350.89987, y: 180, z: -2.7443749e-11}
+        radius: 4.705122
+        strength: 1.2098584
+        falloff: 0.68956345
+        set: 1
+      - name: Front
+        enabled: 1
+        showHandles: 1
+        hookType: 2
+        localPos: {x: 0.00000015380152, y: 0.82229185, z: 4.564619}
+        localRot: {x: 0, y: 0, z: 0, w: 1}
+        localEulerRot: {x: -0, y: 0, z: 0}
+        radius: 4.540235
+        strength: 0.7255328
+        falloff: 0.8204067
+        set: 1
+      - name: Front Under
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -0.00000032868215, y: -2.7255769, z: 2.357072}
+        localRot: {x: 0.15265048, y: 3.9047286e-13, z: 1.7175291e-13, w: 0.9882803}
+        localEulerRot: {x: 17.561115, y: 4.9533343e-11, z: 2.7565786e-11}
+        radius: 3.4551098
+        strength: 0.38325125
+        falloff: 0.5000405
+        set: 1
+      - name: Top Front
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -0.0000007931042, y: 1.7961602, z: 1.0855198}
+        localRot: {x: -0.41755667, y: 5.254567e-14, z: 3.3556212e-13, w: 0.9086509}
+        localEulerRot: {x: 310.63916, y: -1.6252113e-11, z: 4.9786744e-11}
+        radius: 2.3113291
+        strength: 0.25247154
+        falloff: 0.1667333
+        set: 1
+      - name: Top Right
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 2.3024144, y: 2.0806437, z: -1.3319079}
+        localRot: {x: -0.23116328, y: 0.6772177, z: 0.28110752, w: 0.6394671}
+        localEulerRot: {x: 317.43823, y: 91.87667, z: 3.6135628}
+        radius: 2.0558782
+        strength: 0.25247154
+        falloff: 0.271415
+        set: 1
+      - name: Top Left
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -2.3024144, y: 2.0806437, z: -1.3319079}
+        localRot: {x: -0.23116311, y: -0.6772177, z: -0.28110772, w: 0.6394671}
+        localEulerRot: {x: 317.43823, y: 268.12335, z: 356.3864}
+        radius: 2.0558782
+        strength: 0.25247154
+        falloff: 0.271415
+        set: 1
+      - name: Under
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 5.322774e-14, y: -2.8004432, z: -3.2300508}
+        localRot: {x: 0.74827844, y: -0.0000000037108228, z: -0.0000000037106924,
+          w: 0.6633848}
+        localEulerRot: {x: 83.117065, y: 180, z: 180}
+        radius: 3.460347
+        strength: 0.11659269
+        falloff: 0.5182146
+        set: 1
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+  - name: Cabin
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 1
+      cornerDetailMode: 0
+      boxSize: {x: 3.2219222, y: 1.0479198, z: 2.4745345}
+      boxOffset: {x: 0, y: 1.1311827, z: -1.0912623}
+      boxSidesPos: {x: 0.5, y: 0.5, z: 0.5}
+      boxSidesNeg: {x: -0.5, y: -0.5, z: -0.5}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 1.5886173, y: 0.8254237, z: 0.5744417}
+        axleRadii: {x: 0.20925713, y: 0.20925719, z: 0.20925719}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -1.5886173, y: 0.8254237, z: 0.5744417}
+        axleRadii: {x: 0.20925713, y: 0.20925719, z: 0.20925719}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -1.6077529, y: 0.6072229, z: -2.0219338}
+        axleRadii: {x: 0.20935893, y: 0.20935893, z: 0.20935893}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 1.6077529, y: 0.6072229, z: -2.0219338}
+        axleRadii: {x: 0.20935893, y: 0.20935893, z: 0.20935893}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 1.3332975, y: 1.5172987, z: -0.23306407}
+        axleRadii: {x: 0.4130268, y: 0.059116364, z: 0.4464532}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -1.3332975, y: 1.5172987, z: -0.23306407}
+        axleRadii: {x: 0.4130268, y: 0.059116364, z: 0.4464532}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -1.289549, y: 1.532041, z: -2.0134516}
+        axleRadii: {x: 0.46341228, y: 0.13615179, z: 0.33723903}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 1.289549, y: 1.532041, z: -2.0134516}
+        axleRadii: {x: 0.46341228, y: 0.13615179, z: 0.33723903}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      cornerDetails: 02000000020000000200000002000000
+      topSegments: 3
+      bottomSegments: 0
+      XYDetail: 2
+      YZDetail: 3
+      XZDetail: 2
+      detailSmoothness: 0
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks:
+      - name: Top
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: 0.00000052975133, y: 1.5213346, z: -0.8620258}
+        localRot: {x: -0.72509414, y: 0.0000000617967, z: 0.00000006179672, w: 0.6886498}
+        localEulerRot: {x: 272.95334, y: 180, z: 180}
+        radius: 1.2084837
+        strength: 0.13261512
+        falloff: 0.4775728
+        set: 1
+      - name: Front
+        enabled: 1
+        showHandles: 1
+        hookType: 0
+        localPos: {x: -0.00000008624606, y: 0.80287695, z: 0.17429733}
+        localRot: {x: -0.17100228, y: 0.000000086462414, z: 0.0000000127209185, w: 0.9852706}
+        localEulerRot: {x: 340.3078, y: 0.000010103548, z: -0.00000027405724}
+        radius: 1.2084837
+        strength: 0.1852374
+        falloff: 0.4775728
+        set: 1
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0

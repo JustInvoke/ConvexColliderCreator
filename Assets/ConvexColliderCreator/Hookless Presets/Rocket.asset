@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9092efbd977154da1f5519958fddb8, type: 3}
+  m_Name: Rocket
+  m_EditorClassIdentifier: 
+  colliders:
+  - name: Body
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 1
+      cornerRadiusMode: 2
+      cornerOffsetMode: 0
+      cornerDetailMode: 0
+      boxSize: {x: 3.3906755, y: 6.8750014, z: 3.390676}
+      boxOffset: {x: 0, y: 0, z: 0}
+      boxSidesPos: {x: 1.6953378, y: 3.4174697, z: 1.695338}
+      boxSidesNeg: {x: -1.6953378, y: -4.2398415, z: -1.695338}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 1.6953378, y: -4.2398415, z: 1.695338}
+        axleRadii: {x: 1.7, y: 3.5012407, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -1.6953378, y: -4.2398415, z: 1.695338}
+        axleRadii: {x: 1.7, y: 3.5012407, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -1.6953378, y: -4.2398415, z: -1.695338}
+        axleRadii: {x: 1.7, y: 3.5012407, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 1.6953378, y: -4.2398415, z: -1.695338}
+        axleRadii: {x: 1.7, y: 3.5012407, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 1.6953378, y: 3.4174697, z: 1.695338}
+        axleRadii: {x: 1.7, y: 3.9453719, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -1.6953378, y: 3.4174697, z: 1.695338}
+        axleRadii: {x: 1.7, y: 3.9453719, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -1.6953378, y: 3.4174697, z: -1.695338}
+        axleRadii: {x: 1.7, y: 3.9453719, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 1.6953378, y: 3.4174697, z: -1.695338}
+        axleRadii: {x: 1.7, y: 3.9453719, z: 1.7}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      cornerDetails: 03000000030000000300000003000000
+      topSegments: 4
+      bottomSegments: 4
+      XYDetail: 0
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 1
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks: []
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+  - name: Wing Left
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 2
+      cornerDetailMode: 0
+      boxSize: {x: 1, y: 1, z: 0.24062514}
+      boxOffset: {x: -1.869004, y: -2.688386, z: 0}
+      boxSidesPos: {x: -1.369004, y: -1.9639454, z: 0.12031257}
+      boxSidesNeg: {x: -2.1527255, y: -4.90164, z: -0.12031257}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: -1.7419848, y: -4.90164, z: 0.054633766}
+        axleRadii: {x: 0, y: -0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -1.8785689, y: -4.90164, z: 0.05549568}
+        axleRadii: {x: 0.15863419, y: 0.34328365, z: 0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -1.8785689, y: -4.90164, z: -0.05549568}
+        axleRadii: {x: 0.15863419, y: 0.34328365, z: -0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: -1.7419848, y: -4.90164, z: -0.054633766}
+        axleRadii: {x: 0, y: -0, z: -0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: -0.9031741, y: -2.8890982, z: 0.12031257}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -1.1096376, y: -1.8650427, z: 0.12031257}
+        axleRadii: {x: 1.0466834, y: 1.9813533, z: 0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -1.1096376, y: -1.8650427, z: -0.12031257}
+        axleRadii: {x: 1.0466834, y: 1.9813533, z: -0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: -0.9031741, y: -2.8890982, z: -0.12031257}
+        axleRadii: {x: 0, y: 0, z: -0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      cornerDetails: 00000000000000000000000000000000
+      topSegments: 5
+      bottomSegments: 1
+      XYDetail: 0
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 0
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks: []
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+  - name: Wing Right
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 2
+      cornerDetailMode: 0
+      boxSize: {x: 1, y: 1, z: 0.24062514}
+      boxOffset: {x: 1.869004, y: -2.688386, z: 0}
+      boxSidesPos: {x: 2.1527255, y: -1.9639454, z: 0.12031257}
+      boxSidesNeg: {x: 1.369004, y: -4.90164, z: -0.12031257}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 1.8785689, y: -4.90164, z: 0.05549568}
+        axleRadii: {x: 0.15863419, y: 0.34328365, z: 0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: 1.7419848, y: -4.90164, z: 0.054633766}
+        axleRadii: {x: 0, y: -0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: 1.7419848, y: -4.90164, z: -0.054633766}
+        axleRadii: {x: 0, y: -0, z: -0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 1.8785689, y: -4.90164, z: -0.05549568}
+        axleRadii: {x: 0.15863419, y: 0.34328365, z: -0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 1.1096376, y: -1.8650427, z: 0.12031257}
+        axleRadii: {x: 1.0466834, y: 1.9813533, z: 0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: 0.9031741, y: -2.8890982, z: 0.12031257}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: 0.9031741, y: -2.8890982, z: -0.12031257}
+        axleRadii: {x: 0, y: 0, z: -0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 1.1096376, y: -1.8650427, z: -0.12031257}
+        axleRadii: {x: 1.0466834, y: 1.9813533, z: -0}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      cornerDetails: 00000000000000000000000000000000
+      topSegments: 5
+      bottomSegments: 1
+      XYDetail: 0
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 0
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks: []
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+  - name: Wing Back
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 2
+      cornerDetailMode: 0
+      boxSize: {x: 1, y: 1, z: 0.24062514}
+      boxOffset: {x: -1.869004, y: -2.688386, z: -0}
+      boxSidesPos: {x: -1.369004, y: -1.9639454, z: 0.12031257}
+      boxSidesNeg: {x: -2.1527255, y: -4.90164, z: -0.12031257}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 0.05463377, y: -4.90164, z: 1.878569}
+        axleRadii: {x: 0, y: 0.3432837, z: 0.1586342}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -0.05549568, y: -4.90164, z: 1.878569}
+        axleRadii: {x: 0, y: 0.34328365, z: 0.1586342}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -0.05549568, y: -4.90164, z: 1.741985}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 0.05463377, y: -4.90164, z: 1.741985}
+        axleRadii: {x: 0, y: -0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 0.1203126, y: -1.865043, z: 1.109638}
+        axleRadii: {x: 0, y: 1.981353, z: 1.046683}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -0.1203126, y: -1.8650427, z: 1.109638}
+        axleRadii: {x: 0, y: 1.9813533, z: 1.046683}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -0.1203126, y: -2.889098, z: 0.9031741}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 0.1203126, y: -2.8890982, z: 0.9031741}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      cornerDetails: 00000000000000000000000000000000
+      topSegments: 5
+      bottomSegments: 1
+      XYDetail: 0
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 0
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks: []
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+  - name: Wing Front
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 0}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 2
+      cornerDetailMode: 0
+      boxSize: {x: 1, y: 1, z: 0.24062514}
+      boxOffset: {x: -1.869004, y: -2.688386, z: 0}
+      boxSidesPos: {x: -1.369004, y: -1.9639454, z: 0.12031257}
+      boxSidesNeg: {x: -2.1527255, y: -4.90164, z: -0.12031257}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: 0.05463377, y: -4.90164, z: -1.741985}
+        axleRadii: {x: 0, y: -0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: -0.05549568, y: -4.90164, z: -1.741985}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: -0.05549568, y: -4.90164, z: -1.878569}
+        axleRadii: {x: 0, y: 0.34328365, z: 0.1586342}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: 0.05463377, y: -4.90164, z: -1.878569}
+        axleRadii: {x: 0, y: 0.3432837, z: 0.1586342}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 0.1203126, y: -2.8890982, z: -0.9031741}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -0.1203126, y: -2.889098, z: -0.9031741}
+        axleRadii: {x: 0, y: 0, z: 0}
+        radiusOffsets: {x: 0, y: 0, z: 0}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -0.1203126, y: -1.8650427, z: -1.109638}
+        axleRadii: {x: 0, y: 1.9813533, z: 1.046683}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 0.1203126, y: -1.865043, z: -1.109638}
+        axleRadii: {x: 0, y: 1.981353, z: 1.046683}
+        radiusOffsets: {x: 0, y: 1, z: 0}
+      cornerDetails: 00000000000000000000000000000000
+      topSegments: 5
+      bottomSegments: 1
+      XYDetail: 0
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 0
+      stripDistribution1: 1.9
+      stripDistribution2: 1.1
+      hooks: []
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0

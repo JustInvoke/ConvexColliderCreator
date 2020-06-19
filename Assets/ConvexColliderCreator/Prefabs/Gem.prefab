@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1795629846770698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4408963609933576}
+  - component: {fileID: 33062671582951172}
+  - component: {fileID: 23485994779645948}
+  - component: {fileID: 114702906529123084}
+  - component: {fileID: 64986590282309964}
+  - component: {fileID: 54364190789682214}
+  m_Layer: 0
+  m_Name: Gem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4408963609933576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795629846770698}
+  m_LocalRotation: {x: 0.000000021855694, y: -0.00000016292068, z: 3.560745e-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33062671582951172
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795629846770698}
+  m_Mesh: {fileID: 4300026, guid: ef5f4a6a86b41ba40876489a6d754d0b, type: 3}
+--- !u!23 &23485994779645948
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795629846770698}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e8f08ba57499b954db114fe83565e68f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114702906529123084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795629846770698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e53546a88b62f4da4f76e38830ae80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generateOnStart: 1
+  linkedPreset: {fileID: 0}
+  showPresetOptions: 1
+  showColliderList: 1
+  meshColComponents:
+  - {fileID: 64986590282309964}
+  colliders:
+  - name: Gem
+    colMesh: {fileID: 0}
+    props:
+      linkedPreset: {fileID: 11400000, guid: 16d8591dfd9dd8b49b581a3584672e50, type: 2}
+      meshAssetPath: Assets
+      isTrigger: 0
+      physMat: {fileID: 0}
+      cornerPositionMode: 2
+      cornerRadiusMode: 2
+      cornerOffsetMode: 0
+      cornerDetailMode: 0
+      boxSize: {x: 1.4154171, y: 1, z: 1.415417}
+      boxOffset: {x: 0, y: 0, z: 0}
+      boxSidesPos: {x: 0.70770854, y: 0.37699124, z: 0.7077085}
+      boxSidesNeg: {x: -0.70770854, y: -0.7784786, z: -0.7077085}
+      corners:
+      - cornerLocation: 2
+        normalizedCornerLocation: {x: 1, y: -1, z: 1}
+        localPos: {x: -0, y: -0.7784786, z: 0}
+        axleRadii: {x: 0, y: -0, z: 0}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 3
+        normalizedCornerLocation: {x: -1, y: -1, z: 1}
+        localPos: {x: 0, y: -0.7784786, z: 0}
+        axleRadii: {x: -0, y: -0, z: 0}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 7
+        normalizedCornerLocation: {x: -1, y: -1, z: -1}
+        localPos: {x: 0, y: -0.7784786, z: -0}
+        axleRadii: {x: -0, y: -0, z: -0}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 6
+        normalizedCornerLocation: {x: 1, y: -1, z: -1}
+        localPos: {x: -0, y: -0.7784786, z: -0}
+        axleRadii: {x: 0, y: -0, z: -0}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 0
+        normalizedCornerLocation: {x: 1, y: 1, z: 1}
+        localPos: {x: 0.707708, y: 0.3414201, z: 0.7077085}
+        axleRadii: {x: 0.70668185, y: 0.26998758, z: 0.70668185}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 1
+        normalizedCornerLocation: {x: -1, y: 1, z: 1}
+        localPos: {x: -0.707708, y: 0.3414201, z: 0.7077085}
+        axleRadii: {x: 0.70668185, y: 0.26998758, z: 0.70668185}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 5
+        normalizedCornerLocation: {x: -1, y: 1, z: -1}
+        localPos: {x: -0.707708, y: 0.3414201, z: -0.7077085}
+        axleRadii: {x: 0.70668185, y: 0.26998758, z: 0.70668185}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      - cornerLocation: 4
+        normalizedCornerLocation: {x: 1, y: 1, z: -1}
+        localPos: {x: 0.707708, y: 0.3414201, z: -0.7077085}
+        axleRadii: {x: 0.70668185, y: 0.26998758, z: 0.70668185}
+        radiusOffsets: {x: 1, y: 1, z: 1}
+      cornerDetails: 02000000020000000200000002000000
+      topSegments: 3
+      bottomSegments: 0
+      XYDetail: 0
+      YZDetail: 0
+      XZDetail: 0
+      detailSmoothness: 0
+      stripDistribution1: 1.556
+      stripDistribution2: 1.075
+      hooks:
+      - name: Top Pull
+        enabled: 1
+        showHandles: 0
+        hookType: 0
+        localPos: {x: -0.00000014305107, y: 0.08829401, z: -0.000035925033}
+        localRot: {x: 0.7069847, y: -3.156043e-12, z: -3.1549535e-12, w: -0.70722884}
+        localEulerRot: {x: 270.01978, y: 5.113704e-10, z: 0}
+        radius: 0.64389896
+        strength: 0.06550635
+        falloff: 0.01
+        set: 1
+      - name: Top Expand
+        enabled: 1
+        showHandles: 1
+        hookType: 2
+        localPos: {x: -0.00000014303652, y: 0.21753214, z: 0.000008743}
+        localRot: {x: -0.70698464, y: 3.276606e-12, z: 3.2549822e-12, w: 0.7072289}
+        localEulerRot: {x: 270.01978, y: 5.2764926e-10, z: 0}
+        radius: 0.64389896
+        strength: 1.0256325
+        falloff: 0.01
+        set: 1
+      - name: Top Twist
+        enabled: 1
+        showHandles: 0
+        hookType: 1
+        localPos: {x: 0, y: 0.38225648, z: 0}
+        localRot: {x: -1.0340928e-14, y: 0.26795378, z: 4.034258e-15, w: -0.9634318}
+        localEulerRot: {x: 1.0177776e-12, y: 328.91492, z: -7.629074e-13}
+        radius: 0.73997253
+        strength: 1
+        falloff: 0.01
+        set: 1
+      - name: Top Push
+        enabled: 1
+        showHandles: 0
+        hookType: 0
+        localPos: {x: -0.00000014299813, y: 0.55787134, z: 0.0001265069}
+        localRot: {x: 0.7069847, y: 4.452091e-12, z: -4.4505545e-12, w: 0.70722884}
+        localEulerRot: {x: 89.98022, y: 7.2136774e-10, z: 0}
+        radius: 0.21111107
+        strength: 0.533529
+        falloff: 1
+        set: 1
+      bypassPolyTest: 0
+      polyTestMode: 0
+      detailReduction: 2
+      detailReductionAttempts: 10
+      boxedCorners: 0
+--- !u!64 &64986590282309964
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795629846770698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!54 &54364190789682214
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795629846770698}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
